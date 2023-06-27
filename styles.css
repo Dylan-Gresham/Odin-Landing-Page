@@ -181,3 +181,21 @@ img {
     color: white;
     font-size: 18px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 32px;
+}
+
+.footer > .footer-text {
+    font-size: 16px;
+}
+
+.footer > .footer-text > a {
+    color: white;
+    font-size: 16px;
+}
