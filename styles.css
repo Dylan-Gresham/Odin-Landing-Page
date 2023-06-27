@@ -119,3 +119,29 @@ img {
     font-size: 24px;
     text-align: center;
 }
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 48px 0;
+
+}
+
+.quote-section > .quote {
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+    width: 500px;
+}
+
+.quote-section > .author,
+.quote-section > .author > em {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+}
