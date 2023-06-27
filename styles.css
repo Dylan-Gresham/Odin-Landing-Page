@@ -1,3 +1,8 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,6 +18,10 @@ ul {
     padding: 0;
 }
 
+ul > li {
+    font-size: 16px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -21,7 +30,6 @@ ul {
     color: white;
     margin: 0;
     padding: 4px 8px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .website-link {
@@ -29,4 +37,44 @@ ul {
     text-decoration: none;
     font-weight: 900;
     font-size: 24px;
+}
+
+.hero {
+    padding: 32px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    background-color: #1F2937;
+    color: white;
+    flex: 1 1 0;
+}
+
+.hero-text-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    width: 200px;
+}
+
+.hero-header {
+    font-size: 24px;
+    font-weight: 700;
+    width: 300px;
+}
+
+.hero-body-text {
+    width: 300px;
+    font-size: 10px;
+    color: #d8d4d4;
+}
+
+.sign-up-button {
+    width: 70px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 3px;
 }
