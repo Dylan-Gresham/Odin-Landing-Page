@@ -19,7 +19,12 @@ ul {
 }
 
 ul > li {
-    font-size: 16px;
+    font-size: 18px;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .header {
@@ -32,11 +37,11 @@ ul > li {
     padding: 4px 8px;
 }
 
-.website-link {
+.header > .website-link {
     color: white;
     text-decoration: none;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .hero {
@@ -50,31 +55,66 @@ ul > li {
     flex: 1 1 0;
 }
 
-.hero-text-button {
+.hero > .hero-text-button {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 400px;
 }
 
-.hero-image {
-    width: 200px;
-}
-
-.hero-header {
-    font-size: 24px;
+.hero > .hero-text-button > .hero-header {
+    font-size: 32px;
     font-weight: 700;
-    width: 300px;
+    text-align: left;
 }
 
-.hero-body-text {
+.hero > .hero-text-button > .hero-body-text {
     width: 300px;
-    font-size: 10px;
+    margin: 4px 0;
+    font-size: 12px;
     color: #d8d4d4;
 }
 
-.sign-up-button {
-    width: 70px;
+.hero > .hero-text-button > .sign-up-button {
+    width: 100px;
+    padding: 4px 0;
     background-color: #3882F6;
     border: none;
     border-radius: 3px;
+    font-size: 12px;
+    color: white;
+}
+
+.random-info-section {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.random-info-section > .cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.random-info-section > .cards-container > .card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+    color: #706f6f;
+}
+
+.random-info-section > .cards-container > .card > .card-text {
+    width: 400px;
+}
+
+.random-info-section > .random-info-title {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
 }
